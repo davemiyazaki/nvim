@@ -10,7 +10,7 @@ return{
     "mason-org/mason-lspconfig.nvim",
     config = function()
         require('mason-lspconfig').setup({
-          ensure_installed = {"lua_ls", "ts_ls", "jdtls"}
+          ensure_installed = {"lua_ls", "ts_ls", "jdtls", 'emmet_language_server'}
         })
       end
   },
@@ -29,9 +29,9 @@ return{
       lspconfig.jdtls.setup({
         capabilities = capabilities
       })
-      vim.keymap.set('n','K', vim.lsp.buf.hover, {})
+      vim.keymap.set('n','gh', vim.lsp.buf.hover, {})
       vim.keymap.set('n','gd', vim.lsp.buf.definition,{})
-      vim.keymap.set('n','<leader>ca',vim.lsp.buf.code_action, {})
+      vim.keymap.set('n','ga',vim.lsp.buf.code_action, {})
     end
   }
 

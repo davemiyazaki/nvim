@@ -11,8 +11,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 --opt.rocks.hererocks = true
-
+vim.o.relativenumber = true
 
 require("vim-configs")
 require("lazy").setup("plugins")
-
+vim.cmd[[colorscheme solarized-osaka]]
