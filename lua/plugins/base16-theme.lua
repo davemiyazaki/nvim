@@ -11,6 +11,6 @@ return {
       illuminate = true,
       dapui = true,
     })
-    vim.cmd('colorscheme base16-ayu-light')
+    vim.cmd('colorscheme base16-ayu-dark')
   end,
 }
