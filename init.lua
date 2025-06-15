@@ -15,4 +15,4 @@ vim.o.relativenumber = true
 
 require("vim-configs")
 require("lazy").setup("plugins")
-vim.cmd[[colorscheme solarized-osaka]]
+--vim.cmd[[colorscheme solarized-osaka]]
