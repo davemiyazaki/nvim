@@ -22,7 +22,7 @@ return {
     scroll_delay = 0,
 
     -- Options: 'background'|'foreground'|'virtual_left'|'virtual_eol'|'foreground+virtual_left'|'foreground+virtual_eol'
-    style = "foreground+virtual_left",
+    style = "background",
     bold = false,
     italic = false,
     -- `● ` also looks nice, nerd fonts also have bigger shapes ` `, `󰝤 `, and ` `.
