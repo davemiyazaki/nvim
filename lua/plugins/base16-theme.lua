@@ -11,6 +11,6 @@ return {
       illuminate = true,
       dapui = true,
     })
-    vim.cmd('colorscheme base16-google-light')
+    vim.cmd('colorscheme base16-catppuccin-latte')
   end,
 }
